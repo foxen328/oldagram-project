@@ -4,3 +4,95 @@ body {
     padding: 0;
     background-color: white;
 }
+
+.container {
+    width: 300px;
+    margin: 0px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oldagram-logo {
+    width: auto;
+    height: 40px;
+}
+
+.per-picture {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+}
+
+.test {
+    width: 50px !important;
+    height: auto;
+    border: none;
+    border-radius: 100%;
+    float: left;
+    padding: 5px;
+}
+
+.main-img {
+    width: 300px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon {
+    width: 20px;
+}
+
+.header {
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.section-one p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14;
+    margin-left: 5px;
+}
+
+.section-one {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.section-one span {
+    margin-top: 10px;
+    display: inline-block
+}
+
+footer span {
+    font-weight: bold;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0px 5px;
+}
+
+.icon:hover {
+    opacity: 50%;
+}
+
+h2 {
+    margin: 0;
+    font-size: small;
+    padding-left: 5px;
+}
+
+footer p {
+    margin: 5px 5px 5px 0px;
+    font-size: small;
+    padding-left: 5px;
+}
